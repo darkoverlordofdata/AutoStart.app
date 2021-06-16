@@ -1,0 +1,11 @@
+#!/usr/bin/env zsh
+###
+#
+# Add your autostart commands here
+# these will run everytime you logon
+#
+###
+
+# I can't read 1920x1080 resolution.
+# same as my Inspiron:
+xrandr -s 1368x768
