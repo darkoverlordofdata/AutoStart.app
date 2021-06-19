@@ -7,5 +7,11 @@
 ###
 
 # I can't read 1920x1080 resolution.
-# same as my Inspiron:
-xrandr -s 1368x768
+# change it to the same as my Inspiron:
+xrandr --size 1368x768
+
+# helloSystem logs me in -- lucky Balthazar!
+# so lock the screen in case it finished 
+# loading while I'm in the other room
+catlock --pin 420420 --theme wallpaper &
+
