@@ -13,5 +13,8 @@ xrandr --size 1368x768
 # helloSystem logs me in -- lucky Balthazar!
 # so lock the screen in case it finished 
 # loading while I'm in the other room
-catlock --pin 420420 --theme wallpaper &
 
+#catlock --pin 420420 --theme wallpaper &
+
+# testing new prototype
+/Applications/Autostart/BadaBing.app/catlock --pin 420420 --tz -3 &
